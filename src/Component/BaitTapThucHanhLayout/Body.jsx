@@ -7,6 +7,7 @@ export default class Body extends Component {
     return (
       <div>
         <Banner/>
+        <div style={{minHeight:50}}></div>
         <Item/>
       </div>
     )
